@@ -1,0 +1,49 @@
+{
+  "directories": {
+    "test": "test"
+  },
+  "engines": {
+    "node": ">=10"
+  },
+  "name": "script-pipeline",
+  "version": "0.0.1",
+  "description": "Progress bar enabled pipeline for npm scripts and shell commands",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cpuabuse/script-pipeline.git"
+  },
+  "keywords": [
+    "script",
+    "pipeline",
+    "shell",
+    "progress",
+    "bar",
+    "build",
+    "deployment",
+    "automation",
+    "async"
+  ],
+  "author": "cpuabuse.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cpuabuse/script-pipeline/issues"
+  },
+  "homepage": "https://github.com/cpuabuse/script-pipeline#readme",
+  "devDependencies": {
+    "@types/node": "^13.7.6",
+    "@typescript-eslint/eslint-plugin": "^2.21.0",
+    "@typescript-eslint/parser": "^2.21.0",
+    "cli-progress": "^3.6.0",
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-import": "^2.20.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1",
+    "typescript": "^3.8.2"
+  }
+}
